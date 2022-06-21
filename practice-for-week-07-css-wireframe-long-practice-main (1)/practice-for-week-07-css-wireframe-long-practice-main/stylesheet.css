@@ -1,0 +1,22 @@
+.header .nav__upper{
+    display: inline-block;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+
+}
+.header .nav__upper .upper__right{
+    position: absolute;
+    right: 10px;
+}
+.sign-in, .get-started{
+    margin: 2px;
+    padding: 1px;
+}
+.nav__lower{
+    display: flex;
+    justify-content: space-evenly;
+}
+hr{
+
+    size: 10em;
+}
