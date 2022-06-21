@@ -64,3 +64,14 @@ h1 {
 hr {
     size: 10em;
 }
+
+.external_links{
+    margin: 10px auto;
+    justify-content: flex-start;
+    display: flex;
+    width: 425px;
+}
+
+.external_links a{
+    color: blue;
+}
