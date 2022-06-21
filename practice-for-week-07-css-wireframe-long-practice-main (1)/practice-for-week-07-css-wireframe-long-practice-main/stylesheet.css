@@ -1,22 +1,66 @@
-.header .nav__upper{
+.header .nav__upper {
     display: inline-block;
     padding-bottom: 10px;
     margin-bottom: 10px;
 
 }
-.header .nav__upper .upper__right{
+
+.header .nav__upper .upper__right {
     position: absolute;
     right: 10px;
+    top: 20px;
 }
-.sign-in, .get-started{
+
+.nav__upper .upper__left {
+    width: 36px;
+    height: 36px;
+}
+
+.sign-in,
+.get-started {
     margin: 2px;
     padding: 1px;
 }
-.nav__lower{
+
+.nav__lower {
     display: flex;
     justify-content: space-evenly;
 }
-hr{
 
+h1 {
+    border: 5px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+}
+
+.main__img {
+    /* border: 2px red solid; */
+    margin: 0 auto;
+    justify-content: center;
+    display: flex;
+    width: 400px;
+    height: 400px;
+}
+
+.content {
+    width: fit-content;
+}
+
+.content p {
+    margin: 10px auto;
+    justify-content: center;
+    display: flex;
+    border: 2px solid rgba(0, 0, 0, 0.8);
+    width: 400px;
+}
+
+.content h2 {
+    margin: 10px 66% 10px 33%;
+    justify-content: center;
+    display: flex;
+
+}
+
+hr {
     size: 10em;
 }
